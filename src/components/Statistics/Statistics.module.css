@@ -1,0 +1,14 @@
+.statistics__title {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.statistics__descr {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 3px 3px rgba(0, 21, 255, 0.5), 0px 0px 0px rgba(0, 21, 255, 0.5);
+}

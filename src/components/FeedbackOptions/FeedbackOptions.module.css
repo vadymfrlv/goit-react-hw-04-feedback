@@ -1,0 +1,30 @@
+.feedback__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feedback__btn {
+  padding: 10px;
+  width: 120px;
+  font-weight: 900;
+  font-size: 18px;
+  background-color: rgb(167, 170, 173);
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  scale: 1;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedback__btn:hover,
+.feedback__btn:focus {
+  text-shadow: 3px 3px rgba(0, 21, 255, 0.3), 0px 0px 0px rgba(0, 21, 255, 0.3);
+  scale: 1.1;
+  border: 2px solid #acfc00;
+  box-shadow: 7px 7px rgba(0, 21, 255, 0.5), 0px 0px 0px rgba(0, 21, 255, 0.5);
+}

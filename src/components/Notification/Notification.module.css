@@ -1,0 +1,8 @@
+.notify {
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.676);
+  font-weight: 700;
+}
